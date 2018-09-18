@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5ccf8671-a8fd-4e42-afd3-e1408cd6bd8c" name="Default" comment="" />
+    <list default="true" id="5ccf8671-a8fd-4e42-afd3-e1408cd6bd8c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linear regression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Machine Learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Machine Learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinearModel.py" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,16 +18,38 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Machine_Learning$Linear.coverage" NAME="Linear Coverage Results" MODIFIED="1537196601105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_impletation$Linear.coverage" NAME="Linear Coverage Results" MODIFIED="1537236517440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_impletation$linear_classification.coverage" NAME="linear classification Coverage Results" MODIFIED="1537237888452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_impletation$linear_regression.coverage" NAME="linear regression Coverage Results" MODIFIED="1537242447879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ML_impletation$py_test_in_linear_classification_py.coverage" NAME="py.test in linear classification.py Coverage Results" MODIFIED="1537237314871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Linear.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Linear.py">
+      <file leaf-file-name="linear regression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/linear regression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+            <state relative-caret-position="142">
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
               <folding>
-                <element signature="e#120#138#0" expanded="true" />
+                <element signature="e#112#130#0" expanded="true" />
+                <element signature="e#460#892#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linear classification.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/linear classification.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="249">
+              <caret line="138" column="21" lean-forward="true" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+              <folding>
+                <element signature="e#135#153#0" expanded="true" />
+                <element signature="e#1224#1825#0" />
+                <element signature="e#1851#1895#0" />
+                <element signature="e#1981#2116#0" />
+                <element signature="e#2151#3100#0" />
+                <element signature="e#3127#3993#0" />
               </folding>
             </state>
           </provider>
@@ -38,13 +67,21 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>logistics</find>
+      <find>回归</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/DataProducer.py" />
         <option value="$PROJECT_DIR$/Linear.py" />
+        <option value="$PROJECT_DIR$/LinearModel.py" />
+        <option value="$PROJECT_DIR$/linear regression.py" />
+        <option value="$PROJECT_DIR$/linear classification.py" />
       </list>
     </option>
   </component>
@@ -58,10 +95,13 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="390" />
-    <option name="y" value="720" />
+    <option name="x" value="652" />
+    <option name="y" value="67" />
     <option name="width" value="1950" />
     <option name="height" value="2075" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -72,8 +112,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="Machine Learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Machine Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="ML-impletation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ML-impletation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -84,6 +124,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/linear classification.py" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -99,8 +140,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Linear" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.linear regression">
+    <configuration name="linear classification" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,15 +154,56 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linear.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear classification.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="linear regression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linear regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="py.test in linear classification.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Machine Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/linear classification.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.py.test in linear classification.py" />
+      <item itemvalue="Python.linear classification" />
+      <item itemvalue="Python.linear regression" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Linear" />
+        <item itemvalue="Python.linear regression" />
+        <item itemvalue="Python.linear classification" />
+        <item itemvalue="Python tests.py.test in linear classification.py" />
       </list>
     </recent_temporary>
   </component>
@@ -138,20 +220,26 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_linear_classification_py - 2018.09.18 at 10h 22m 03s.xml">
+      <configuration name="py.test in linear classification.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003349" side_tool="true" weight="0.4992948" />
+      <window_info anchor="right" x="0" y="0" width="337" height="637" id="Documentation" order="5" side_tool="true" weight="0.32953784" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4996651" weight="0.46826518" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996651" weight="0.08885755" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32768363" />
+      <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.4996651" weight="0.32344633" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996651" weight="0.06920904" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32863188" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18218352" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15874079" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.32953784" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32953784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39915374" />
@@ -161,11 +249,61 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15874079" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32863188" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32953784" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4996651" weight="0.4420904" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4996651" weight="0.21327683" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39915374" />
+      <window_info anchor="right" x="0" y="0" width="337" height="637" id="Documentation" order="5" side_tool="true" visible="true" weight="0.32953784" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32863188" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5003349" side_tool="true" weight="0.4992948" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -176,16 +314,33 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Linear.py">
+    <entry file="file://$PROJECT_DIR$/linear regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1376">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+        <state relative-caret-position="48">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding>
-            <element signature="e#120#138#0" expanded="true" />
+            <element signature="e#112#130#0" expanded="true" />
+            <element signature="e#460#892#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linear classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#135#153#0" expanded="true" />
+            <element signature="e#1224#1825#0" />
+            <element signature="e#1851#1895#0" />
+            <element signature="e#1981#2116#0" />
+            <element signature="e#2151#3100#0" />
+            <element signature="e#3127#3993#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Linear.py" />
     <entry file="file://$PROJECT_DIR$/DataProducer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -193,12 +348,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Linear.py">
+    <entry file="file://$PROJECT_DIR$/Linear.py" />
+    <entry file="file://$PROJECT_DIR$/LinearModel.py" />
+    <entry file="file://$PROJECT_DIR$/linear regression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="86" column="37" selection-start-line="86" selection-start-column="37" selection-end-line="86" selection-end-column="37" />
+        <state relative-caret-position="142">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
           <folding>
-            <element signature="e#120#138#0" expanded="true" />
+            <element signature="e#112#130#0" expanded="true" />
+            <element signature="e#460#892#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linear classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="138" column="21" lean-forward="true" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
+          <folding>
+            <element signature="e#135#153#0" expanded="true" />
+            <element signature="e#1224#1825#0" />
+            <element signature="e#1851#1895#0" />
+            <element signature="e#1981#2116#0" />
+            <element signature="e#2151#3100#0" />
+            <element signature="e#3127#3993#0" />
           </folding>
         </state>
       </provider>
