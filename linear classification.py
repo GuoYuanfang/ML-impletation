@@ -272,4 +272,4 @@ if __name__ == '__main__':
     # test_perceptron()
     # test_logistics()
     # test_multi_ovo()
-    test_multi_ovr()
+    test_logistics()
